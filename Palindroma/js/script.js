@@ -6,18 +6,22 @@
 // 2.2 ALTRIMENTI non è una parola palindroma
 
 // 1.
-let word = prompt('Inserire una parola')
+let word = prompt('Inserire una parola');
+console.log(word);
 
 // 2.
-function pal(role1){
+function pal(role){
+    let rev_word = role.split('').reverse().join('');
+    return rev_word;
 }
 
 let reversed_word = pal(word)
+console.log(reversed_word)
 
 // 2.1 / 2.2
 if(word == reversed_word){
-    return 'La parola è palindroma'
+    console.log('La parola è palindroma');
 }
 else{
-    return 'La parola non è palindroma'
+    console.log('La parola non è palindroma');
 }
