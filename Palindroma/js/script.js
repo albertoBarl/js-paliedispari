@@ -14,6 +14,7 @@ function pal(role1){
 
 let reversed_word = pal(word)
 
+// 2.1 / 2.2
 if(word == reversed_word){
     return 'La parola è palindroma'
 }
