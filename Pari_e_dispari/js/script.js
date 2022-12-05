@@ -41,3 +41,10 @@ function par_dis(){
 let verdict = par_dis()
 console.log(verdict) 
 
+// 6.
+if(verdict === P_par_dis){
+    console.log('PLAYER HA VINTO')
+}
+else{
+    console.log('IL COMPUTER HA VINTO')
+}
