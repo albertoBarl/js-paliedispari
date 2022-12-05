@@ -5,8 +5,18 @@
 // 2.1- SE parola palindroma
 // 2.2 ALTRIMENTI non è una parola palindroma
 
+// 1.
 let word = prompt('Inserire una parola')
 
-function pal(){
+// 2.
+function pal(role1){
+}
 
+let reversed_word = pal(word)
+
+if(word == reversed_word){
+    return 'La parola è palindroma'
+}
+else{
+    return 'La parola non è palindroma'
 }
